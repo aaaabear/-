@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1558256103301'); /* IE9 */
+  src: url('iconfont.eot?t=1558256103301#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAP8AAsAAAAACFAAAAOtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqECINSATYCJAMQCwoABCAFhG0HSRtFBxEVnBPJfiRkJ1l3p/GTJRjp1QQPmFf/0qQz3XYJfEg4UUdQZ7gJEBC8uSWSq50wEYpPYvf515cu6QeES7NPWLH/OWa6tAnkt9lcqim6ebQ3wFG0Dqibqk+shPGGsSsvYjsEYBJOKqJWnUatMFAY/QQgBvXv2x0jJUHVxAsMBI6SqQqxDB1Dm69dA5b6fy++ki0M0NAlxtBmfWr3ovKD8aGDnGZPo5OLgDWeCmCzQAKpgALRr1TTAxl6UpGYSmtFPmBgoMFYdR4fOtg2Yu9FaJj/8kAg0UA4MGJdAchFXgkfDJsCAR88mGWiDjAGDeCFTDEAE9gKvMbAhZKsoyE9Xf1c0EP9hWv8WHPVKl9Wr7ashWuFmL6mzb17re7fb/3wYdsHDzpvOpvrevx8uLBWkf/IdH+r29a7C29Pu7XgTk/zwIMF9xJNsfVCgduxc2ET771qdf9164dv2z54085csA6sViamML9piel3rYVxDOw4ML993Pzqg+JjD1OO3wjfnXD8srNv3IEHGefut37wsPmJlHX7fE8krNp3v2dys7F6sj7Wkeywg58+O6f+/lWQd47SITdepkkHrtHZ8xrX+qV5UNmmTaUwaZiGkzzS+nYMddZqhhC1gztMm96oMrqJZWk0vbVo20wQWVP3osJWIxX2Rc+ILYeXwW6bm+B/yTuzrkuDissNL1c0rCjIiE2Jja5F8+jLnqfVr5/qDAj69eu0PCNdZvxlP2O7akt3HJnn7NYqNH5326ATI53bRvZq+CasaMelwLZtBw0ob6Jb7ZZWjRl3q8fg374Lp15jGMCcPIlnV4J9Ul6T9cC+IG/JvJ/djbbTv47v6lH6zbCuNuexs/ijb7ZPKtqz/hhLYf1aVss0pXIMqVIy12ZqsYoG6PCO4kxM4IcGwJsXY4j9WrtAYKRYDDSchIHEIBapsKmgY5ELDgwqwCSFurMtfBiBRCgXIJnZAASeHAUNdy6AxJPrSIV9DjAdf/7gwFNIMGnTbkmLeNHf7AWt4hOmH0THK1lyNUH8Bf1rtpLk+PgHSol26Jsu6z/jijLGiPL2gyoBCS9wArvhPDNswgmdNkF1G9uWyu7UOF4qQw2BLIWegMkPEDlsRW52ZXK/f4G8l5klNSkV6gckitg40NPQtUCehWurlGs5pnjzBpQiABFsAZyACs2mhwFbeacEOaoh9HBtRlqUidoKm/nFyxMuAUyMmymhCSmU0HHpvxa1XuxSk3V5Ys61fqIqSl9VAAAA') format('woff2'),
+  url('iconfont.woff?t=1558256103301') format('woff'),
+  url('iconfont.ttf?t=1558256103301') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1558256103301#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\e608";
+}
+
+.icon-fackbook:before {
+  content: "\e65a";
+}
+
+.icon-twitter1:before {
+  content: "\e60f";
+}
+
