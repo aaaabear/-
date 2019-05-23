@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/myPage/index.css">
+
+</head>
+<body>
+    <div id="wrap">
+        <!--头部-->
+        <header class="headerWrap">
+            <div class="header">
+                <div class="headerLeft">
+                    <a href="javascript:;"><img src="img/index/facebook.png" alt=""></a>
+                    <a href="javascript:;"><img src="img/index/instagram.png" alt=""></a>
+                    <a href="javascript:;"><img src="img/index/twitter.png" alt=""></a>
+                </div>
+                <h1 class="logo">
+                    <a href="javascript:;">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </h1>
+                <div class="headerRight">
+                    <ul class="register">
+                        <li><a href="javascript:;">LOG-IN</a></li>
+                        <li><a href="javascript:;">JOIN</a></li>
+                        <li><a href="javascript:;">MYPAGE</a></li>
+                        <li><a href="javascript:;">CART</a></li>
+                    </ul>
+                    <div class="search_input">
+                        <i class="fa fa-search" id="i-advanced-search-i"></i>
+                        <input type="text" id="i-advanced-search" placeholder="search">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!--我页-->
+        <div class="myWrap">
+            <!--左侧导航-->
+            <div class="myNav">
+                <div class="myNavTop">
+                    <img src="img/myPage/cat1.png" alt="">
+                    <p>Bear</p>
+                </div>
+                <div class="myNavBot">
+                    <ul>
+                        <li class="active">
+                            <a>个人资料</a>
+                        </li>
+                        <li>
+                            <a>我的购物车</a>
+                        </li>
+                        <li>
+                            <a>买过的宝贝</a>
+                        </li>
+                        <li>
+                            <a>我的收藏</a>
+                        </li>
+                        <li>
+                            <a>我的足迹</a>
+                        </li>
+                        <li>
+                            <a>系统消息</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <!--右侧内容-->
+            <div class="myContent">
+                <div class="mySet">
+                    <ul class="setTop">
+                        <li class="active">
+                            <a>个人概览</a>
+                        </li>
+                        <li>
+                            <a>基本信息</a>
+                        </li>
+                        <li>
+                            <a>账户信息</a>
+                        </li>
+                        <li>
+                            <a>收货地址</a>
+                        </li>
+                        <li>
+                            <a>实名认证</a>
+                        </li>
+                    </ul>
+                    <div class="setCon">
+                        <form class="formTab">
+                            <div class="photoWrap">
+                                <div class="photo">
+                                    <img src="img/myPage/cat1.png" alt="">
+                                </div>
+                                <div class="loadPhoto">
+                                    <p>上传头像</p>
+                                    <input type="file" disabled>
+                                </div>
+                            </div>
+
+                            <div class="nickname">
+                                昵称：
+                                <input type="text" placeholder="请输入昵称" autocomplete="off"  disabled value="Bear">
+                            </div>
+
+                            <div class="selectWrap">
+                                省份：
+                                <select id="one" class="selects" name="province" disabled>
+                                    <option value="" selected="selected">请选择省</option>
+                                    <option value="0">广东</option>
+                                    <option value="1">浙江</option>
+                                    <option value="2">福建</option>
+                                </select>
+                                市：
+                                <select id="two" class="selects" name="city" disabled>
+                                    <option value="" selected="selected">请选择市</option>
+
+                                </select>
+                                区：
+                                <select id="three" class="selects" name="area" disabled>
+                                    <option value="" selected="selected">请选择区</option>
+
+                                </select>
+                            </div>
+
+                            <div class="sex">
+                                性别：
+                                <label><input type="radio" name="sex" disabled checked> 保密</label>
+                                <label><input type="radio" name="sex" disabled> 男</label>
+                                <label><input type="radio" name="sex" disabled> 女</label>
+                            </div>
+
+                            <div class="signature">
+                                个性签名：
+                                <textarea cols="30" rows="10" disabled>个性签名...</textarea>
+                            </div>
+                            <div class="save">
+                                <button type="button">修改</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--底部-->
+        <footer class="footerWrap">
+            <div class="footer">
+                <div class="footerTop">
+                    <p class="tit">CUSTOMER CENTER</p>
+                    <p class="tel">1544-0366</p>
+                    <p class="time">
+                        Tuesday-Sunday AM 10:00 ~ PM 05:00 <br>
+                        Monday PM 12:00 ~ PM 01:00
+                    </p>
+                </div>
+                <div class="footerBottom">
+                    <p>
+                        Gmarket will not be held responsible for any liabilities arising in connection with any transactions between buyers and sellers on this website.
+                    </p>
+                    <p>Copyright &copy; eBay Korea Co., Ltd. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="js/myPage/index.js"></script>
+</html>
