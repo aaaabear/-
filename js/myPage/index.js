@@ -1,16 +1,11 @@
 window.onload = function () {
-  var btn = document.querySelector('#wrap .myWrap .myContent .mySet .setCon .formTab .save button');
-  var inputImg = document.querySelector('#wrap .myWrap .myContent .mySet .setCon .formTab .photoWrap .loadPhoto input');
-  var inputName = document.querySelector('#wrap .myWrap .myContent .mySet .setCon .formTab .nickname input');
-  var inputSelects = document.querySelectorAll('#wrap .myWrap .myContent .mySet .setCon .formTab .selectWrap .selects');
-  var inputSexs = document.querySelectorAll('#wrap .myWrap .myContent .mySet .setCon .formTab .sex label input');
-  var inputText = document.querySelector('#wrap .myWrap .myContent .mySet .setCon .formTab .signature textarea');
+  var btn = document.querySelector('#wrap .myWrap .contentWrap .content .basicInfo .formTab .save button');
+  var inputImg = document.querySelector('#wrap .myWrap .contentWrap .content .basicInfo .formTab .photoWrap .loadPhoto input');
+  var inputName = document.querySelector('#wrap .myWrap .contentWrap .content .basicInfo .formTab .nickname input');
+  var inputSelects = document.querySelectorAll('#wrap .myWrap .contentWrap .content .basicInfo .formTab .selectWrap .selects');
+  var inputSexs = document.querySelectorAll('#wrap .myWrap .contentWrap .content .basicInfo .formTab .sex label input');
+  var inputText = document.querySelector('#wrap .myWrap .contentWrap .content .basicInfo .formTab .signature textarea');
 
-
-  // var textName;
-  // var textSelect;
-  // var sexNum;
-  // var textText;
 
   var flag = false;
   btn.onclick = function () {
@@ -20,8 +15,7 @@ window.onload = function () {
       getFor(inputSelects, 'add');
       getFor(inputSexs, 'add');
       inputText.setAttribute('disabled','disabled');
-      btn.textContent = '修改';
-
+      btn.textContent = 'setting';
 
 
       flag = false;
@@ -31,24 +25,8 @@ window.onload = function () {
       getFor(inputSelects, 'remove');
       getFor(inputSexs, 'remove');
       inputText.removeAttribute('disabled');
-      btn.textContent = '保存';
+      btn.textContent = 'save';
       flag = true;
-
-      // 获取所有文本值或标记
-      // textName = inputName.value;
-      // var arrSelects = [];
-      // for (var i = 0; i < inputSelects.length; i++){
-      //   var textSelect = inputSelects[i][0].value;
-      //   arrSelects.push(textSelect);
-      // }
-      // for (var j = 0; j < inputSexs.length; j++) {
-      //   if(inputSexs[j].getAttributeNode('checked')){
-      //     sexNum = j;
-      //     break;
-      //   }
-      // }
-      // textText = inputText.textContent;
-
     }
   };
 
@@ -75,9 +53,9 @@ window.onload = function () {
 
   // 二级联动
   var city = [];
-  city[0] = ['广州市','深圳市'];
-  city[1] = ['杭州市'];
-  city[2] = ['厦门市'];
+  city[0] = ['GuangZhou','ShenZhen'];
+  city[1] = ['HangZhou'];
+  city[2] = ['XiaMen'];
 
   function funcTwo(m) {
     two.length = 1;
@@ -96,10 +74,10 @@ window.onload = function () {
   dist[0] = [[]];
   dist[1] = [[]];
   dist[2] = [[]];
-  dist[0][0] = ['天河区','番禺区','越秀区'];
-  dist[0][1] = ['南山区','福田区','罗湖区'];
-  dist[1][0] = ['西湖区'];
-  dist[2][0]=['集美区','思明区'];
+  dist[0][0] = ['TianHe','PanYu','YueXiu'];
+  dist[0][1] = ['NanShan','FuTian','LuoHu'];
+  dist[1][0] = ['XiHu'];
+  dist[2][0]=['JiMei','SiMing'];
 
   function funcThree(){
     var n = document.getElementById("two").selectedIndex;
@@ -115,7 +93,5 @@ window.onload = function () {
   two.onchange = function(){
     funcThree();
   };
-
-
 
 };

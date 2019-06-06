@@ -15,6 +15,7 @@ img {
 }
 #wrap {
   /*头部*/
+  /*填充*/
   /*我页*/
   /*底部*/
 }
@@ -54,18 +55,19 @@ img {
   overflow: hidden;
   margin-left: 30px;
   margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
 }
 #wrap .headerWrap .header .headerRight .register li {
   float: left;
-  width: 58px;
-  height: 15px;
-  line-height: 15px;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
   text-align: center;
-  font-size: 10px;
-  font-weight: bold;
 }
 #wrap .headerWrap .header .headerRight .register li a {
   color: #ffffff;
+  font-size: 20px;
 }
 #wrap .headerWrap .header .headerRight .search_input {
   margin-top: 10px;
@@ -86,151 +88,183 @@ img {
 #wrap .headerWrap .header .headerRight .search_input input[type='text']:focus {
   border: 1px solid #e0d03d;
 }
+#wrap .filling {
+  width: 100%;
+  height: 40px;
+  background-color: #E0D03D;
+}
 #wrap .myWrap {
   width: 1226px;
-  height: 700px;
+  height: 600px;
   margin: 0 auto;
   overflow: hidden;
 }
-#wrap .myWrap .myNav {
-  height: 700px;
+#wrap .myWrap .nav {
+  height: 600px;
+  width: 198px;
   float: left;
   border: 1px solid #DEDEDE;
 }
-#wrap .myWrap .myNav .myNavTop {
+#wrap .myWrap .nav .navUp {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 198px;
   height: 200px;
 }
-#wrap .myWrap .myNav .myNavTop img {
+#wrap .myWrap .nav .navUp img {
   width: 100px;
   height: 100px;
   border: 2px solid white;
   border-radius: 50%;
 }
-#wrap .myWrap .myNav .myNavTop p {
+#wrap .myWrap .nav .navUp p {
   font-weight: bold;
   flex: 0.5;
 }
-#wrap .myWrap .myNav .myNavBot {
-  width: 198px;
-  height: 500px;
+#wrap .myWrap .nav .navDown {
+  height: 400px;
 }
-#wrap .myWrap .myNav .myNavBot ul {
+#wrap .myWrap .nav .navDown ul {
   text-align: center;
   height: 100%;
 }
-#wrap .myWrap .myNav .myNavBot ul li {
+#wrap .myWrap .nav .navDown ul li {
   margin-bottom: 25px;
 }
-#wrap .myWrap .myNav .myNavBot ul li a {
+#wrap .myWrap .nav .navDown ul li a {
   color: #E0D03D;
   font-weight: bold;
 }
-#wrap .myWrap .myNav .myNavBot ul li a:hover {
+#wrap .myWrap .nav .navDown ul li a:hover {
   opacity: 0.8;
 }
-#wrap .myWrap .myNav .myNavBot ul li.active {
+#wrap .myWrap .nav .navDown ul li.active {
   width: 100px;
   margin: 0 auto 25px auto;
-  box-shadow: 5px 5px 4px 2px #E0D03D;
+  box-shadow: 1px 1px 1px 1px #E0D03D;
 }
-#wrap .myWrap .myContent {
-  float: right;
-  height: 700px;
-  border: 1px solid #DEDEDE;
-}
-#wrap .myWrap .myContent .mySet .setTop {
-  width: 1024px;
-  height: 100px;
-  border-bottom: 2px solid #DEDEDE;
-}
-#wrap .myWrap .myContent .mySet .setTop li {
+#wrap .myWrap .contentWrap {
   float: left;
-  height: 100px;
-  line-height: 100px;
-  padding: 0 20px;
+  width: 1025px;
+  height: 600px;
+  border-right: 1px solid #DEDEDE;
 }
-#wrap .myWrap .myContent .mySet .setTop li a {
-  color: #E0D03D;
-  font-weight: bold;
+#wrap .myWrap .contentWrap .content {
+  position: relative;
+  margin-left: 200px;
 }
-#wrap .myWrap .myContent .mySet .setTop li a:hover {
-  opacity: 0.8;
+#wrap .myWrap .contentWrap .content .basicInfo {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
-#wrap .myWrap .myContent .mySet .setTop .active {
-  border-bottom: 5px solid #E0D03D;
-}
-#wrap .myWrap .myContent .mySet .setCon {
-  padding-left: 20px;
-}
-#wrap .myWrap .myContent .mySet .setCon .formTab .photoWrap {
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .photoWrap {
   width: 128px;
-  margin-left: 150px;
+  margin-top: 10px;
+  margin-left: 90px;
 }
-#wrap .myWrap .myContent .mySet .setCon .formTab .photoWrap .loadPhoto {
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .photoWrap .loadPhoto {
   position: relative;
 }
-#wrap .myWrap .myContent .mySet .setCon .formTab .photoWrap .loadPhoto p {
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .photoWrap .loadPhoto p {
   text-align: center;
   width: 100%;
   border: 1px solid #DEDEDE;
 }
-#wrap .myWrap .myContent .mySet .setCon .formTab .photoWrap .loadPhoto input {
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .photoWrap .loadPhoto input {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   opacity: 0;
 }
-#wrap .myWrap .myContent .mySet .setCon .formTab .nickname {
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .nickname {
   margin-top: 40px;
-  margin-left: 100px;
 }
-#wrap .myWrap .myContent .mySet .setCon .formTab .nickname input {
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .nickname input {
   width: 400px;
   height: 30px;
 }
-#wrap .myWrap .myContent .mySet .setCon .formTab .selectWrap {
-  margin-top: 40px;
-  margin-left: 100px;
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .nickname input:disabled {
+  background-color: white;
+  border: none;
+  font-weight: bold;
 }
-#wrap .myWrap .myContent .mySet .setCon .formTab .selectWrap .selects {
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .selectWrap {
+  margin-top: 40px;
+  margin-left: 6px;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .selectWrap .selects {
   width: 107px;
   height: 25px;
 }
-#wrap .myWrap .myContent .mySet .setCon .formTab .sex {
-  margin-top: 40px;
-  margin-left: 100px;
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .selectWrap .selects:disabled {
+  background-color: white;
+  border: none;
 }
-#wrap .myWrap .myContent .mySet .setCon .formTab .sex label {
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .sex {
+  margin-top: 40px;
+  margin-left: 15px;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .sex label {
   margin-right: 20px;
 }
-#wrap .myWrap .myContent .mySet .setCon .formTab .signature {
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .signature {
   margin-top: 40px;
-  margin-left: 65px;
+  margin-left: -3px;
 }
-#wrap .myWrap .myContent .mySet .setCon .formTab .signature textarea {
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .signature textarea {
   width: 400px;
+  height: 100px;
   resize: none;
   vertical-align: top;
 }
-#wrap .myWrap .myContent .mySet .setCon .formTab .save {
-  margin-left: 500px;
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .signature textarea:disabled {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  font-family: Arial;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .save {
+  margin-left: 410px;
   margin-top: 20px;
 }
-#wrap .myWrap .myContent .mySet .setCon .formTab .save button {
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .save button {
   width: 50px;
   height: 30px;
   background-color: white;
   border: 1px solid #DEDEDE;
   outline: none;
 }
-#wrap .myWrap .myContent .mySet .setCon .formTab .save button:hover {
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .save button:hover {
   border: 1px solid #E0D03D;
+}
+#wrap .myWrap .contentWrap .content .postInfo {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#wrap .myWrap .contentWrap .content .postInfo .postTop {
+  margin-top: 40px;
+}
+#wrap .myWrap .contentWrap .content .postInfo .postTop .add {
+  width: 100px;
+  height: 35px;
+  background-color: #E0D03D;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+#wrap .myWrap .contentWrap .content .postInfo .postList {
+  margin-top: 40px;
+}
+#wrap .myWrap .contentWrap .content .postInfo .postList .postItem {
+  width: 600px;
+  height: 100px;
+  border: 1px solid #DEDEDE;
 }
 #wrap .footerWrap {
   width: 100%;
@@ -238,7 +272,7 @@ img {
 }
 #wrap .footerWrap .footer {
   width: 1226px;
-  margin: 0 auto 0;
+  margin: 50px auto 0;
 }
 #wrap .footerWrap .footer .footerTop {
   padding-top: 30px;
