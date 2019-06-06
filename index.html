@@ -595,15 +595,16 @@
 <script src="js/index/swiper.min.js"></script>
 <script src="js/index/banner.js"></script>
 <script>
+  $(function(){
     /*调用banner的js*/
     banner();
     /*回到顶部*/
     toTop();
     function toTop(){
-        var toTop = document.querySelector("#wrap .toTop");
-        toTop.onclick = function () {
-            document.documentElement.scrollTop = 0;
-        }
+      var toTop = document.querySelector("#wrap .toTop");
+      toTop.onclick = function () {
+        document.documentElement.scrollTop = 0;
+      }
     }
     /*fixedNav*/
     var fixedNavWrap = document.querySelector("#wrap .fixedNavWrap");
@@ -617,6 +618,8 @@
         $(fixedNavWrap).css({"height" : "0px", "transition" : "0s"})
       }
     })
+  });
+
 
 
 

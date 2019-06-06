@@ -3,68 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a3afcbd6-99de-4585-8862-e74f9d4280f9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/banner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/swiper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iconfont/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iconfont/demo_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iconfont/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iconfont/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iconfont/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iconfont/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iconfont/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iconfont/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iconfont/iconfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/event.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/event_tit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gnb_arrow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/itemcon1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/itemcon10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/itemcon11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/itemcon12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/itemcon2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/itemcon3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/itemcon4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/itemcon5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/itemcon6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/itemcon7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/itemcon8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/itemcon9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/new.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sale.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/share.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/store01_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/store02_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/store03_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/store04_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/twitter.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/banner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/页面信息.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,12 +16,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="383" column="18" lean-forward="true" selection-start-line="383" selection-start-column="18" selection-end-line="383" selection-end-column="18" />
+            <state relative-caret-position="186">
+              <caret line="596" column="8" selection-start-line="596" selection-start-column="8" selection-end-line="596" selection-end-column="8" />
               <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#h1#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#6;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -93,23 +33,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="305" column="21" lean-forward="true" selection-start-line="305" selection-start-column="21" selection-end-line="305" selection-end-column="21" />
+            <state relative-caret-position="-2650">
+              <caret line="108" column="25" lean-forward="true" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
+              <folding>
+                <element signature="e#5700#11142#0" />
+                <element signature="e#11169#11846#0" />
+                <element signature="e#11870#12165#0" />
+                <element signature="e#12199#13475#0" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/index/event_tit.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/index/event.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -141,12 +77,12 @@
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/css/index.less" />
         <option value="$PROJECT_DIR$/页面信息.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/index/index.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1346" />
@@ -171,17 +107,6 @@
               <item name="项目" type="b2602c69:ProjectViewProjectNode" />
               <item name="项目" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="项目" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="项目" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,18 +163,20 @@
       <workItem from="1558574768289" duration="2496000" />
       <workItem from="1558577272939" duration="6760000" />
       <workItem from="1558591983258" duration="6659000" />
-      <workItem from="1558599450702" duration="3965000" />
+      <workItem from="1558599450702" duration="4255000" />
+      <workItem from="1559538192395" duration="723000" />
+      <workItem from="1559790741850" duration="1061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106391000" />
+    <option name="totallyTimeSpent" value="108465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14955357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14508928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -273,68 +200,19 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Temp/index.html" />
-    <entry file="file://$PROJECT_DIR$/img/facebook.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/facebook.png" />
     <entry file="file://$PROJECT_DIR$/img/fb.png" />
-    <entry file="file://$PROJECT_DIR$/img/itemcon1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/banner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="66" lean-forward="true" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/store01_.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../class0225-svn/js高级/01_基础总结深入/03_对象4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/swiper.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iconfont/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/banner.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iconfont/demo_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/itemcon1.jpg" />
+    <entry file="file://$PROJECT_DIR$/js/banner.js" />
+    <entry file="file://$PROJECT_DIR$/img/store01_.jpg" />
+    <entry file="file://$PROJECT_DIR$/../class0225-svn/js高级/01_基础总结深入/03_对象4.html" />
+    <entry file="file://$PROJECT_DIR$/css/swiper.min.css" />
+    <entry file="file://$PROJECT_DIR$/iconfont/demo.css" />
+    <entry file="file://$PROJECT_DIR$/css/banner.css" />
+    <entry file="file://$PROJECT_DIR$/iconfont/demo_index.html" />
     <entry file="file://$PROJECT_DIR$/css/iconfont.css" />
-    <entry file="file://$PROJECT_DIR$/iconfont/iconfont.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#185#3027#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="143" column="13" lean-forward="true" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/iconfont/iconfont.css" />
+    <entry file="file://$PROJECT_DIR$/css/index.css" />
     <entry file="file://$PROJECT_DIR$/../项目规范/设计说明.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -342,51 +220,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/页面信息.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="226" column="51" selection-start-line="226" selection-start-column="51" selection-end-line="226" selection-end-column="51" />
-          <folding>
-            <element signature="e#255#1997#0" />
-            <element signature="e#2326#3086#0" />
-            <element signature="e#3098#3199#0" />
-            <element signature="e#3217#3580#0" />
-            <element signature="e#3979#4488#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/页面信息.md" />
+    <entry file="file://$PROJECT_DIR$/css/index.less" />
     <entry file="file://$PROJECT_DIR$/img/index/event.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/index/event_tit.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/index/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2650">
+          <caret line="108" column="25" lean-forward="true" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
+          <folding>
+            <element signature="e#5700#11142#0" />
+            <element signature="e#11169#11846#0" />
+            <element signature="e#11870#12165#0" />
+            <element signature="e#12199#13475#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="383" column="18" lean-forward="true" selection-start-line="383" selection-start-column="18" selection-end-line="383" selection-end-column="18" />
+        <state relative-caret-position="186">
+          <caret line="596" column="8" selection-start-line="596" selection-start-column="8" selection-end-line="596" selection-end-column="8" />
           <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#h1#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#6;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#7;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#8;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="305" column="21" lean-forward="true" selection-start-line="305" selection-start-column="21" selection-end-line="305" selection-end-column="21" />
         </state>
       </provider>
     </entry>
