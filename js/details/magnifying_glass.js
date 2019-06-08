@@ -1,8 +1,5 @@
 //liNodes图片列表，smallImg小图集合，bigImg大图集合
 function tapSwitch(liNodes,smallImg,bigImg){
-	/*var liNodes = document.querySelectorAll("#wrap > .list > li");
-	var smallImg = document.querySelector("#wrap > .smallPic > img");
-	var bigImg = document.querySelector("#wrap > .bigPic > img");*/
 	
 	liNodes.forEach(function(item){
 		item.onmouseenter=function(){
@@ -15,8 +12,6 @@ function tapSwitch(liNodes,smallImg,bigImg){
 			
 			
 			//换图!!
-			/*smallImg.src= item.getAttribute("small-src");
-			bigImg.src = item.getAttribute("big-src");*/
 			
 			smallImg.src= item.dataset.smallSrc;
 			bigImg.src = item.dataset.bigSrc;
@@ -24,20 +19,14 @@ function tapSwitch(liNodes,smallImg,bigImg){
 	})
 }
 
-
-
-
 //	smallPic小图片，bigPic大图片，move移动的方块
 	function readingGlass(smallPic,bigPic,moveNode){
-		/*var smallPic = document.querySelector("#wrap .smallPic");
-		var bigPic = document.querySelector("#wrap .bigPic");*/
 		console.log(smallPic,bigPic);
 		bigPic.style.width = getComputedStyle(smallPic).width;
 		bigPic.style.height = getComputedStyle(smallPic).height;
 		
 		
 		
-//		var moveNode = document.querySelector("#wrap .move");
 		var bigImg = bigPic.querySelector("img");
 		
 		
@@ -77,13 +66,6 @@ function tapSwitch(liNodes,smallImg,bigImg){
 			
 			
 			//放大镜核心代码
-			/*
-				moveNode 在  smallPic 中移动的实时距离 / moveNode 在  smallPic 移动的最大距离(flag)
-					||
-				bigPic.img 在 bigPic  中移动的实时距离  / bigPic.img 在 bigPic  中移动的最大距离
-				
-				bigPic.img 在 bigPic  中移动的实时距离 = flag * bigPic.img 在 bigPic  中移动的最大距离
-			*/
 			
 			var bigL =0;
 			var bigT =0;
