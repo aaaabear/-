@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  display: block;
+}
+#wrap {
+  /*头部*/
+  /*填充*/
+  /*我页*/
+  /*底部*/
+}
+#wrap .headerWrap {
+  width: 100%;
+  background-color: #e0d03d;
+}
+#wrap .headerWrap .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 1226px;
+  margin: 0 auto;
+}
+#wrap .headerWrap .header .logo {
+  width: 132px;
+  height: 60px;
+  align-self: center;
+}
+#wrap .headerWrap .header .logo a {
+  width: 100%;
+  height: 100%;
+}
+#wrap .headerWrap .header .logo a img {
+  height: 100%;
+}
+#wrap .headerWrap .header .headerLeft a {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+#wrap .headerWrap .header .headerLeft a img {
+  width: 100%;
+}
+#wrap .headerWrap .header .headerRight .register {
+  overflow: hidden;
+  margin-left: 30px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+#wrap .headerWrap .header .headerRight .register li {
+  float: left;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+#wrap .headerWrap .header .headerRight .register li a {
+  color: #ffffff;
+  font-size: 20px;
+}
+#wrap .headerWrap .header .headerRight .search_input {
+  margin-top: 10px;
+}
+#wrap .headerWrap .header .headerRight .search_input i {
+  position: relative;
+  left: 30px;
+  color: #e0d03d;
+}
+#wrap .headerWrap .header .headerRight .search_input input[type='text'] {
+  display: inline-block;
+  width: 250px;
+  border-radius: 15px;
+  height: 30px;
+  text-indent: 30px;
+  border: 1px solid #DEDEDE;
+}
+#wrap .headerWrap .header .headerRight .search_input input[type='text']:focus {
+  border: 1px solid #e0d03d;
+}
+#wrap .filling {
+  width: 100%;
+  height: 40px;
+  background-color: #E0D03D;
+}
+#wrap .myWrap {
+  width: 1226px;
+  height: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#wrap .myWrap .nav {
+  height: 600px;
+  width: 198px;
+  float: left;
+  border: 1px solid #DEDEDE;
+}
+#wrap .myWrap .nav .navUp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+#wrap .myWrap .nav .navUp img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+#wrap .myWrap .nav .navUp p {
+  font-weight: bold;
+  flex: 0.5;
+}
+#wrap .myWrap .nav .navDown {
+  height: 400px;
+}
+#wrap .myWrap .nav .navDown ul {
+  text-align: center;
+  height: 100%;
+}
+#wrap .myWrap .nav .navDown ul li {
+  margin-bottom: 25px;
+}
+#wrap .myWrap .nav .navDown ul li a {
+  color: #E0D03D;
+  font-weight: bold;
+}
+#wrap .myWrap .nav .navDown ul li a:hover {
+  opacity: 0.8;
+}
+#wrap .myWrap .nav .navDown ul li.active {
+  width: 100px;
+  margin: 0 auto 25px auto;
+  box-shadow: 1px 1px 1px 1px #E0D03D;
+}
+#wrap .myWrap .contentWrap {
+  float: left;
+  width: 1025px;
+  height: 600px;
+  border-right: 1px solid #DEDEDE;
+}
+#wrap .myWrap .contentWrap .content {
+  position: relative;
+  margin-left: 200px;
+}
+#wrap .myWrap .contentWrap .content .basicInfo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .photoWrap {
+  width: 128px;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .photoWrap .loadPhoto {
+  position: relative;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .photoWrap .loadPhoto p {
+  text-align: center;
+  width: 100%;
+  border: 1px solid #DEDEDE;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .photoWrap .loadPhoto input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .nickname {
+  margin-top: 40px;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .nickname input {
+  width: 400px;
+  height: 30px;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .nickname input:disabled {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .selectWrap {
+  margin-top: 40px;
+  margin-left: 6px;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .selectWrap .selects {
+  width: 107px;
+  height: 25px;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .selectWrap .selects:disabled {
+  background-color: white;
+  border: none;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .sex {
+  margin-top: 40px;
+  margin-left: 15px;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .sex label {
+  margin-right: 20px;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .signature {
+  margin-top: 40px;
+  margin-left: -3px;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .signature textarea {
+  width: 400px;
+  height: 100px;
+  resize: none;
+  vertical-align: top;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .signature textarea:disabled {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  font-family: Arial;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .save {
+  margin-left: 410px;
+  margin-top: 20px;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .save button {
+  width: 50px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #DEDEDE;
+  outline: none;
+}
+#wrap .myWrap .contentWrap .content .basicInfo .formTab .save button:hover {
+  border: 1px solid #E0D03D;
+}
+#wrap .myWrap .contentWrap .content .postInfo {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#wrap .myWrap .contentWrap .content .postInfo .postTop {
+  margin-top: 40px;
+}
+#wrap .myWrap .contentWrap .content .postInfo .postTop .add {
+  width: 100px;
+  height: 35px;
+  background-color: #E0D03D;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+#wrap .myWrap .contentWrap .content .postInfo .postList {
+  margin-top: 40px;
+}
+#wrap .myWrap .contentWrap .content .postInfo .postList .postItem {
+  width: 600px;
+  height: 100px;
+  border: 1px solid #DEDEDE;
+}
+#wrap .footerWrap {
+  width: 100%;
+  background-color: #e0d03d;
+}
+#wrap .footerWrap .footer {
+  width: 1226px;
+  margin: 50px auto 0;
+}
+#wrap .footerWrap .footer .footerTop {
+  padding-top: 30px;
+  border-bottom: 1px solid #d8cccc;
+}
+#wrap .footerWrap .footer .footerTop .tit {
+  font-size: 20px;
+  color: #d8cccc;
+  font-weight: bold;
+}
+#wrap .footerWrap .footer .footerTop .tel {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+}
+#wrap .footerWrap .footer .footerTop .time {
+  padding: 20px 0;
+  color: #d8cccc;
+}
+#wrap .footerWrap .footer .footerBottom {
+  padding: 20px 0;
+}
+#wrap .footerWrap .footer .footerBottom p {
+  color: #d8cccc;
+}
