@@ -76,17 +76,21 @@ function checkRepass(){
 function checkPhone(){
     var phone =document.logForm.phone.value;
     var tel = document.getElementById('tel');
-    var str4=document.getElementById('str4');
+    var str4=document.querySelectorAll('.str4');
       if(phone.match(/^1[3|4|5|7|8]\d{9}$/)==null){
-      	str4.style.backgroundPosition='3px -3px';
-        str4.style.display='inline-block';
+				str4[0].style.backgroundPosition='3px -3px';
+				str4[1].style.backgroundPosition='3px -3px';
+				str4[0].style.display='inline-block';
+				str4[1].style.display='inline-block';
         tel.innerHTML='手机号码格式错误！';
 		tel.style.color='red';
 		tel.style.marginTop='1px';
         return false;
     }else{
-        str4.style.backgroundPosition='3px 30px';
-        str4.style.display='inline-block';
+				str4[0].style.backgroundPosition='3px 30px';
+				str4[1].style.backgroundPosition='3px 30px';
+				str4[0].style.display='inline-block';
+				str4[1].style.display='inline-block';
         tel.innerHTML=' ';
 		tel.style.marginTop='1px';
         return true;
