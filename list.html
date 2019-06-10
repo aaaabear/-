@@ -749,19 +749,34 @@
       </nav>
     </div>
 </body>
+<script src="js/index/jquery.min.js"></script>
 <script type="text/javascript" src="js/list/list.js"></script>
 <script>
-    /*调用banner的js*/
-    // banner();
+  $(function(){
     /*回到顶部*/
-
+    toTop();
+    function toTop(){
+      var toTop = document.querySelector("#wrap .toTop");
+      toTop.onclick = function () {
+        document.documentElement.scrollTop = 0;
+      }
+    }
     /*fixedNav*/
-
     var fixedNavWrap = document.querySelector("#wrap .fixedNavWrap");
     var navWrap = document.querySelector("#wrap .navWrap");
-    var headWrap = document.querySelector("#wrap .headerWrap");
-    var headerH = navWrap.offsetHeight + headWrap.offsetHeight;
+    var headerWrap = document.querySelector("#wrap .headerWrap");
+    var headerH = navWrap.offsetHeight + headerWrap.offsetHeight;
+    $(document).scroll(function(){
+      if($(document).scrollTop()>headerH){
+        $(fixedNavWrap).css({"height" : "40px" , "transition" : ".5s"})
+      }else{
+        $(fixedNavWrap).css({"height" : "0px", "transition" : "0s"})
+      }
+    })
+  });
 
+</script>
+<script>
     //主体部分的逻辑
     var linkImg = document.querySelectorAll("#wrap .content_warp .goods .goods_item .goods_list .imgLink img ")
     var seek_list = document.querySelectorAll("#wrap .content_warp .nav .seek_item .seek_list")
@@ -778,70 +793,6 @@
     var teapoy = [];
     var Cabinet = [] ;
     var arr = [];
-
-  //回到顶部
-  //   toTop();
-  //   function toTop(){
-  //     var toTop = document.querySelector("#wrap .toTop");
-  //     toTop.onclick = function () {
-  //       document.documentElement.scrollTop = 0;
-  //     }
-  //   }
-  //
-  // //切换图片
-  //   photo()
-  //   function photo(){
-  //     for(var i = 1 ; i <21 ; i++){
-  //       desk.push("img/list/desk"+i+".jpg")
-  //     }
-  //     for(var i = 1 ; i <21 ; i++){
-  //       safa.push("img/list/safa"+i+".jpg")
-  //     }
-  //     for(var i = 1 ; i <21 ; i++){
-  //       bed.push("img/list/bed"+i+".jpg")
-  //     }
-  //     for(var i = 1 ; i <21 ; i++){
-  //       chair.push("img/list/chair"+i+".jpg")
-  //     }
-  //     for(var i = 1 ; i <21 ; i++){
-  //       robe.push("img/list/robe"+i+".jpg")
-  //     }
-  //     for(var i = 1 ; i <21 ; i++){
-  //       dresser.push("img/list/dresser"+i+".jpg")
-  //     }
-  //     for(var i = 1 ; i <21 ; i++){
-  //       bookcase.push("img/list/bookcase"+i+".jpg")
-  //     }
-  //     for(var i = 1 ; i <21 ; i++){
-  //       teapoy.push("img/list/teapoy"+i+".jpg")
-  //     }
-  //     for(var i = 1 ; i <21 ; i++){
-  //       Cabinet.push("img/list/Cabinet"+i+".jpg")
-  //     }
-  //     arr.push(desk,safa,bed,chair,robe,dresser,bookcase,teapoy,Cabinet)
-  //     console.log(arr)
-  //     seek_list.forEach(function (item,seekIndex) {
-  //       item.onclick=function () {
-  //         linkImg.forEach(function (item,linkIndex) {
-  //           (function (seekIndex) {
-  //             item.src = arr[seekIndex][linkIndex]
-  //           })(seekIndex)
-  //
-  //         })
-  //
-  //       }
-  //     })
-  //   }
-
-
-
-
-
-
-
-
-
-    
 
 </script>
 </html>

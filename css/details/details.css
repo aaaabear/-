@@ -91,7 +91,7 @@ img {
   border: 1px solid #DEDEDE;
 }
 #wrap .headerWrap .header .headerRight .search_input input[type='text']:focus {
-  border: 1px solid #e0d03d;
+  outline: none;
 }
 #wrap .navWrap {
   width: 100%;
@@ -147,6 +147,7 @@ img {
   height: 355px;
   z-index: 5;
   opacity: 1;
+  padding: 29px;
 }
 #wrap .navWrap .navList .navItem:hover .smallList {
   z-index: 5;
@@ -159,7 +160,6 @@ img {
   top: 39px;
   width: 1226px;
   height: 0;
-  padding: 29px;
   box-sizing: border-box;
   border: 1px solid #e0d03d;
   background-color: white;

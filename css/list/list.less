@@ -87,7 +87,8 @@ img{
               text-indent: 30px;
               border: 1px solid #DEDEDE;
               &:focus{
-                border: 1px solid @mainColor;
+                //border: 1px solid @mainColor;
+                outline: none;
               }
             }
 
@@ -105,6 +106,7 @@ img{
         display: flex;
         justify-content: space-between;
         width: @mainWidth;
+        height: 40px;
         margin: 0 auto;
         //padding: 5px 0;
         .navItem{
@@ -113,10 +115,10 @@ img{
             position: relative;
             .smallList{
               position: absolute;
-              top: 39px;
+              top: 40px;
               left: -10px;
               width: 114px;
-              height: 0px;
+              height: 0;
               overflow: hidden;
               padding: 10px;
               box-sizing: border-box;
@@ -131,7 +133,7 @@ img{
                 color: @mainColor;
                 font-size: 16px;
                 &:hover{
-                  color: #daa426;
+                  text-shadow: 2px 2px 1px #b18b26;
                 }
               }
 
@@ -143,10 +145,14 @@ img{
             font-weight: bold;
           }
           &:hover{
+            .text{
+              text-shadow: 3px 3px 3px #42630e;
+            }
             .itemCon{
               height: 355px;
               z-index: 5;
               opacity: 1;
+              padding: 29px;
             }
             .smallList {
               //display: block;
@@ -173,7 +179,6 @@ img{
               width: 114px;
               height: 300px;
               box-sizing: border-box;
-              //background: url("../img/gnb_arrow.jpg") right top no-repeat;
               a{
                 margin-left: 5px;
                 margin-top: 5px;
@@ -181,7 +186,7 @@ img{
                 color: @mainColor;
                 font-size: 16px;
                 &:hover{
-                  color: #daa426;
+                  text-shadow: 2px 2px 1px #b18b26;
                 }
               }
             }
@@ -192,8 +197,10 @@ img{
               a{
                 position: relative;
                 display: block;
+                overflow: hidden;
                 img{
                   width: 100%;
+                  transition: 1s;
                 }
                 span{
                   position: absolute;
@@ -214,8 +221,13 @@ img{
                   background-color: rgba(225,225,225,.4);
                   display: none;
                 }
-                &:hover .mask{
-                  display: block;
+                &:hover {
+                  .mask{
+                    display: block;
+                  }
+                  img{
+                    transform: scale(1.4) rotate(10deg);
+                  }
                 }
               }
             }
@@ -429,9 +441,10 @@ img{
       width: 100%;
       background-color: @mainColor;
       z-index: 10;
-      height: 40px;
+      height: 0;
       line-height: 40px;
-      transform: translateY(-40px);
+      overflow: hidden;
+      transition: height 1s;
       .fixedNav{
         width: @mainWidth;
         margin: 0 auto;

@@ -93,7 +93,7 @@ img {
   border: 1px solid #DEDEDE;
 }
 #wrap .headerWrap .header .headerRight .search_input input[type='text']:focus {
-  border: 1px solid #e0d03d;
+  outline: none;
 }
 #wrap .navWrap {
   width: 100%;
@@ -104,6 +104,7 @@ img {
   display: flex;
   justify-content: space-between;
   width: 1226px;
+  height: 40px;
   margin: 0 auto;
 }
 #wrap .navWrap .navList .navItem {
@@ -114,10 +115,10 @@ img {
 }
 #wrap .navWrap .navList .navItem.navSmall .smallList {
   position: absolute;
-  top: 39px;
+  top: 40px;
   left: -10px;
   width: 114px;
-  height: 0px;
+  height: 0;
   overflow: hidden;
   padding: 10px;
   box-sizing: border-box;
@@ -134,17 +135,21 @@ img {
   font-size: 16px;
 }
 #wrap .navWrap .navList .navItem.navSmall .smallList a:hover {
-  color: #daa426;
+  text-shadow: 2px 2px 1px #b18b26;
 }
 #wrap .navWrap .navList .navItem a {
   color: #ffffff;
   font-size: 18px;
   font-weight: bold;
 }
+#wrap .navWrap .navList .navItem:hover .text {
+  text-shadow: 3px 3px 3px #42630e;
+}
 #wrap .navWrap .navList .navItem:hover .itemCon {
   height: 355px;
   z-index: 5;
   opacity: 1;
+  padding: 29px;
 }
 #wrap .navWrap .navList .navItem:hover .smallList {
   z-index: 5;
@@ -178,7 +183,7 @@ img {
   font-size: 16px;
 }
 #wrap .navWrap .navList .navItem .itemCon .itemConText a:hover {
-  color: #daa426;
+  text-shadow: 2px 2px 1px #b18b26;
 }
 #wrap .navWrap .navList .navItem .itemCon .itemConImg {
   float: left;
@@ -188,9 +193,11 @@ img {
 #wrap .navWrap .navList .navItem .itemCon .itemConImg a {
   position: relative;
   display: block;
+  overflow: hidden;
 }
 #wrap .navWrap .navList .navItem .itemCon .itemConImg a img {
   width: 100%;
+  transition: 1s;
 }
 #wrap .navWrap .navList .navItem .itemCon .itemConImg a span {
   position: absolute;
@@ -213,6 +220,9 @@ img {
 }
 #wrap .navWrap .navList .navItem .itemCon .itemConImg a:hover .mask {
   display: block;
+}
+#wrap .navWrap .navList .navItem .itemCon .itemConImg a:hover img {
+  transform: scale(1.4) rotate(10deg);
 }
 #wrap .content_warp {
   width: 1226px;
@@ -408,9 +418,10 @@ img {
   width: 100%;
   background-color: #e0d03d;
   z-index: 10;
-  height: 40px;
+  height: 0;
   line-height: 40px;
-  transform: translateY(-40px);
+  overflow: hidden;
+  transition: height 1s;
 }
 #wrap .fixedNavWrap .fixedNav {
   width: 1226px;

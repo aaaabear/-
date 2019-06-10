@@ -24,81 +24,81 @@ img{
 #wrap{
     /*头部*/
     .headerWrap{
-        width: 100%;
-        background-color: @mainColor;
-        .header{
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-            width: @mainWidth;
-            margin: 0 auto;
-            .logo{
-                width: 132px;
-                height: 60px;
-                align-self: center;
-                a{
-                    width: 100%;
-                    height: 100%;
-                    img{
-                        height: 100%;
-                    }
-                }
-            }
-            .headerLeft{
-                a{
-                    float: left;
-                    width: 30px;
-                    height: 30px;
-                    margin-right: 10px;
-                    img{
-                        width: 100%;
-                    }
-                }
-            }
-            .headerRight{
-                .register{
-                    overflow: hidden;
-                    margin-left: 30px;
-                    margin-top: 60px;
-                    display: flex;
-                    justify-content: space-around;
-                    li{
-                        float: left;
-                        height: 20px;
-                        width: 20px;
-                        line-height: 20px;
-                        text-align: center;
-                        a{
-                            color: #ffffff;
-                            font-size: 20px;
-                        }
-                    }
-                }
-                .search_input{
-                    margin-top: 10px;
-                    i{
-                        position: relative;
-                        left: 30px;// 这里更改图标的位置
-                        color: @mainColor;//这里可以更改图标的颜色
-                    }
-                    input[type='text']{
-                        display: inline-block;
-                        width: 250px;
-                        border-radius: 15px;
-                        height: 30px;
-                        text-indent: 30px;
-                        border: 1px solid #DEDEDE;
-                        &:focus{
-                            //border: 1px solid @mainColor;
-                            outline: none;
-                        }
-                    }
+                  width: 100%;
+                  background-color: @mainColor;
+                  .header{
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: flex-end;
+                      width: @mainWidth;
+                      margin: 0 auto;
+                      .logo{
+                          width: 132px;
+                          height: 60px;
+                          align-self: center;
+                          a{
+                              width: 100%;
+                              height: 100%;
+                              img{
+                                  height: 100%;
+                              }
+                          }
+                      }
+                      .headerLeft{
+                          a{
+                              float: left;
+                              width: 30px;
+                              height: 30px;
+                              margin-right: 10px;
+                              img{
+                                  width: 100%;
+                              }
+                          }
+                      }
+                      .headerRight{
+                          .register{
+                              overflow: hidden;
+                              margin-left: 30px;
+                              margin-top: 60px;
+                              display: flex;
+                              justify-content: space-around;
+                              li{
+                                  float: left;
+                                  height: 20px;
+                                  width: 20px;
+                                  line-height: 20px;
+                                  text-align: center;
+                                  a{
+                                      color: #ffffff;
+                                      font-size: 20px;
+                                  }
+                              }
+                          }
+                          .search_input{
+                              margin-top: 10px;
+                              i{
+                                  position: relative;
+                                  left: 30px;// 这里更改图标的位置
+                                  color: @mainColor;//这里可以更改图标的颜色
+                              }
+                              input[type='text']{
+                                  display: inline-block;
+                                  width: 250px;
+                                  border-radius: 15px;
+                                  height: 30px;
+                                  text-indent: 30px;
+                                  border: 1px solid #DEDEDE;
+                                  &:focus{
+                                      //border: 1px solid @mainColor;
+                                      outline: none;
+                                  }
+                              }
 
-                }
-            }
+                          }
+                      }
 
-        }
-    }
+                  }
+              }
     /*导航*/
     .navWrap{
         width: 100%;
@@ -154,6 +154,7 @@ img{
                         height: 355px;
                         z-index: 5;
                         opacity: 1;
+                        padding: 29px;
                     }
                     .smallList {
                         //display: block;
@@ -168,7 +169,7 @@ img{
                     top: 39px;
                     width: @mainWidth;
                     height: 0;
-                    padding: 29px;
+                    //padding: 29px;
                     box-sizing: border-box;
                     border: 1px solid @mainColor;
                     background-color: white;
